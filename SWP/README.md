@@ -1,6 +1,6 @@
 # song-wagner-perrig
 
-这是 Practical Techniques for Searches on Encrypted Data 论文中描述的最终方案的实现。
+Practical Techniques for Searches on Encrypted Data 论文中描述的最终方案的实现。
 
 ## 实验环境
 
