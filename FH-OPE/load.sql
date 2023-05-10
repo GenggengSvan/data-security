@@ -15,11 +15,11 @@ drop function if exists FHStart;
 drop function if exists FHEnd;
 
 -- 创建函数
-create function FHInsert RETURNS INTEGER SONAME 'libope1.so';
-create function FHSearch RETURNS INTEGER SONAME 'libope1.so';
-create function FHUpdate RETURNS INTEGER SONAME 'libope1.so';
-create function FHStart RETURNS INTEGER SONAME 'libope1.so';
-create function FHEnd RETURNS INTEGER SONAME 'libope1.so';
+create function FHInsert RETURNS INTEGER SONAME 'libope.so';
+create function FHSearch RETURNS INTEGER SONAME 'libope.so';
+create function FHUpdate RETURNS INTEGER SONAME 'libope.so';
+create function FHStart RETURNS INTEGER SONAME 'libope.so';
+create function FHEnd RETURNS INTEGER SONAME 'libope.so';
 
 -- 创建插入数据的存储过程
 drop procedure if exists pro_insert;
